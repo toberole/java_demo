@@ -9,5 +9,6 @@
 	<classpathentry kind="lib" path="libs/javax.annotation-4.0-b33.jar"/>
 	<classpathentry kind="lib" path="libs/libthrift-0.9.3.jar"/>
 	<classpathentry kind="lib" path="libs/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="con" path="org.jetbrains.kotlin.core.KOTLIN_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
