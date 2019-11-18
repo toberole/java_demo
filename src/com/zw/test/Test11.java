@@ -8,7 +8,7 @@ public class Test11 {
 	private static Condition condition = lock.newCondition();
 	private static volatile int tag = 0;
 	
-	private static int count = 50;
+	private volatile static int count = 50;
 
 	public static void main(String[] args) {
 		new Thread(new P()).start();
